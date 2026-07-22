@@ -352,7 +352,7 @@ embedded-systems
 
 B.E. Electrical and Electronics Engineering
 
-GitHub: https://github.com/kumareshan3010
+GitHub: https://github.com/Dinesh-kailash
 
 ---
 
