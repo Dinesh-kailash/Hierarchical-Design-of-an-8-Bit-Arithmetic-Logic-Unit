@@ -197,6 +197,42 @@ A multiplexer selects the required output based on the operation select lines.
 
 ---
 
+## Prerequisites
+
+Before running this project, ensure the following software is installed:
+
+| Software | Purpose | Download |
+|----------|---------|----------|
+| Digital Logic Simulator | Open and simulate the `.dig` circuit files | https://github.com/hneemann/Digital/releases |
+| Java Runtime Environment (JRE 8+) | Required to run Digital | https://adoptium.net/ |
+| Icarus Verilog *(Optional)* | Compile and simulate the Verilog implementation | https://github.com/steveicarus/iverilog |
+| GTKWave *(Optional)* | View Verilog simulation waveforms | https://gtkwave.sourceforge.net/ |
+
+---
+
+## Installation & Setup
+
+1. Download this repository as a ZIP file or clone it.
+2. Install **Digital Logic Simulator** from the official release page.
+3. Install **Java Runtime Environment (JRE 8 or later)** if it is not already installed.
+4. Launch **Digital Logic Simulator**.
+5. Open the `DigSim` folder.
+6. Open `ALU.dig` to load the complete 8-bit ALU design.
+7. Explore the remaining `.dig` files to view individual modules.
+
+---
+
+## How to Run
+
+1. Open `ALU.dig` in the Digital Logic Simulator.
+2. Modify the input values using the input switches.
+3. Observe the outputs for arithmetic, logical, and shift operations.
+4. To understand the design hierarchy, open the individual module files located in the `DigSim` folder.
+
+> **Note:** The Verilog implementation (`ALU.v`) is provided as an additional hardware description of the design and can be simulated using Icarus Verilog if desired.
+
+---
+
 ## Applications
 
 - Computer Architecture
